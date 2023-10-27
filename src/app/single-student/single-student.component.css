@@ -1,0 +1,31 @@
+:host.student {
+  padding: 1rem;
+  border: none;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 0.3rem;
+}
+
+:host.student:hover{
+  outline: 2px solid yellow;
+}
+
+.student__name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.student__age {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0;
+}
+.sngl-stdnt-delete-button, .sngl-stdnt-update-button{
+  border: 0;
+  border-radius: 0.3rem;
+  padding: 0.3rem;
+  background: #79727282;
+  color: white;
+  font-size: 0.9rem;
+  margin: 0.1rem;
+}
